@@ -53,7 +53,12 @@ class MSVDQABuilder(VideoQABuilder):
     DATASET_CONFIG_DICT = {
         "default": "configs/datasets/msvd/defaults_qa.yaml",
     }
-
+@registry.register_builder("pt")
+class PTQABuilder(MCVideoQABuilder):
+    DATASET_CONFIG_DICT = {
+        "default": "configs/datasets/pt/defaults_qa.yaml",
+    }
+    
 # multi-choice videoqa
 @registry.register_builder("nextqa")
 class NextQABuilder(MCVideoQABuilder):
