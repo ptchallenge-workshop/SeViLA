@@ -14,10 +14,10 @@ datasets:
           url: ./sevila_data/pt/train.json
           storage: ./sevila_data/pt/train.json
         val:
-          url: ./sevila_data/pt/test.json
-          storage: ./sevila_data/pt/test.json
+          url: ./sevila_data/pt/valid.json
+          storage: ./sevila_data/pt/valid.json
         test:
-          url: ./sevila_data/pt/test.json
-          storage: ./sevila_data/pt/test.json
+          url: ./sevila_data/pt/valid.json
+          storage: ./sevila_data/pt/valid.json
       videos:
-        storage: ./sevila_data/cut_test_videos/
+        storage: ./sevila_data/videos/
