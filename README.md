@@ -1,3 +1,11 @@
+# SeViLA for training + eval on Perception Test dataset
+Perception Test scripts:
+* Data download script: [download_pt.sh](https://github.com/ptchallenge-workshop/SeViLA/blob/main/download_pt.sh)
+* Fine-tuning script: [pt_ft.sh](https://github.com/ptchallenge-workshop/SeViLA/blob/main/run_scripts/sevila/finetune/pt_ft.sh)
+* Fine-tuning script: [pt_infer.sh](https://github.com/ptchallenge-workshop/SeViLA/blob/main/run_scripts/sevila/inference/pt_infer.sh)
+
+
+
 # [NeurIPS 2023] Self-Chained Image-Language Model for Video Localization and Question Answering
 
 * Authors: [Shoubin Yu](https://yui010206.github.io/), [Jaemin Cho](https://j-min.io), [Prateek Yadav](https://prateek-yadav.github.io/), [Mohit Bansal](https://www.cs.unc.edu/~mbansal/)
