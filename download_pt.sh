@@ -1,4 +1,4 @@
-#Requires install gcloud CLI for downloading videos from GCP bucket: https://cloud.google.com/sdk/docs/install-sdk#deb
+#Recommended to install gcloud CLI for downloading videos from GCP bucket: https://cloud.google.com/sdk/docs/install-sdk#deb
  
 # Create the target directory if it doesn't exist
 mkdir -p sevila_data/videos
